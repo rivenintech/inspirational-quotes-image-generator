@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "inspirational-quotes-image-generator"
+version = "1.0.0"
+description = ""
+authors = ["RiveN <riven@rivenintech.com>"]
+homepage = "https://rivenintech.com/projects/inspirational-quotes-image-generator-python"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pillow = "^9.5.0"
+requests = "^2.30.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
